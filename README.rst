@@ -38,20 +38,20 @@ ______
 
 2.- Se deben instalar los requisitos del proyecto utilizando
 
-``pip install -r requirements.txt``
+``$ pip install -r requirements.txt``
 
 3.- Para ejecutar el proyecto se debe ejecutar:
 
-``python main.py``
+``$ python main.py``
 
 Existen los siguientes comandos opcionales:
 
 .. code-block:: raw
 
-   $python main.py --colored 
+   $ python main.py --colored 
    'mejora la redibilidad del output del terminal agregando color a distintos elementos'
    
-   $python main.py --mail {yourmail@gmail.com}
+   $ python main.py --mail {yourmail@gmail.com}
    'envia un mail con el log completo de los eventos de la batalla a la dirección de correo ingresada'
 
 *Nota 1: la función de output con color puede no verse correctamente en ciertos terminales.*
