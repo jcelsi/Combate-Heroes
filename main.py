@@ -51,7 +51,7 @@ def main(args):
     Contains the logic for executing the team battle
     """
     team_length = args.team_size
-    printer = CliPrinter(0, args.colored)
+    printer = CliPrinter(args.print_time, args.colored)
     selected_heroes = get_heroes_data( 2 * team_length)
 
     team_1 = Team(selected_heroes[ 0 : team_length ], 'Team 1')
@@ -86,4 +86,6 @@ if __name__ == "__main__":
                                      help = 'Number of members per team')
     parser.add_argument('--mail', default = '', type = str,
                                      help = 'Enter a mail address for receiving a mail with all the battle events')
+    parser.add_argument('--print_time', default = 2, type = int,
+                                     help = 'Sets the time in seconds to wait between printing events')
     main(parser.parse_args())
