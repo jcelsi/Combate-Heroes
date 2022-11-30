@@ -1,4 +1,4 @@
-Tarea Toku: Combate Heroes
+Combate Heroes
 ==============================
 
 Este proyecto simula una batalla entre dos equipos de héroes de miembros al azar. Los Héroes se enfrentan en combates uno a uno hasta que un equipo queda sin miembros para seguir combatiendo. En cada ronda se hacen parejas de héroes que se enfrentaran, pudiendo algunos quedar libres si no hay suficientes contrincantes en pie en el otro equipo. Los héroes atacan en turnos, donde el héroes con el stat de velocidad *speed* más alto ataca primero.
